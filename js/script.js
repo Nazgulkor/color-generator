@@ -23,6 +23,12 @@ const colors = [
 ];
 
 
+(function () {
+    back.style.backgroundColor = getColor();
+    span.textContent = getColor();
+    span.style.color = back.style.backgroundColor
+})()
+
 
 function getColor(){
     let color = "#";
