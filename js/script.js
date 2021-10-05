@@ -42,8 +42,16 @@ button.addEventListener('click', () =>{
     back.style.backgroundColor = getColor();
     span.textContent = getColor();
     span.style.color = back.style.backgroundColor;
+    button.style.color = back.style.backgroundColor;
 });
 
+button.addEventListener('mouseover', () => {
+    button.style.color = back.style.backgroundColor;
+})
+
+button.onmouseout = function() {
+    button.style.color = 'black';
+}
 
 
 
