@@ -10,11 +10,6 @@ const closeIt = document.querySelector('.close');
 const showColor = document.querySelector('.wellpaper span');
 
 
-const addColor = document.createElement('div');
-addColor.style.cssText = `
-    width : 20px;
-    height : 20px;
-`;
 
 const coubs = [];
 
